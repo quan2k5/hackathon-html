@@ -69,7 +69,7 @@ article{
     flex-direction: column;
     gap:20px;
     padding:5px;
-    box-shadow: 0 0 5px 5px grey;
+    box-shadow: 0 0 5px 1px grey;
 }
 .top-box {
     display: flex;
@@ -78,11 +78,12 @@ article{
 .bottom-box {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    padding-left: 5px;
+    gap:10px;
 }
 .name-app {
     width: 25%;
-    background-color: rgba(100, 148, 237, 0.712);
+    background-color: rgba(100, 148, 237, 0.185);
     color:blue;
     display: flex;
     justify-content: center;
@@ -94,7 +95,7 @@ article{
 .picture-background{
     width: 70px;
     height:70px;
-   background-color: cornflowerblue;
+   background-color: rgba(100, 148, 237, 0.185);
     display:flex;
     justify-content: center;
     align-items: center;
@@ -120,6 +121,20 @@ article{
 }
 .special{
     background-color: rgba(255, 0, 0, 0.349);
+}
+.bottom-box-1{
+    width: 100%;
+    display: flex;
+    padding-left: 5px;
+    gap:10px;
+}
+.name-app-1{
+    width: 25%;
+    background-color: rgba(100, 148, 237, 0.185);
+    color:blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
